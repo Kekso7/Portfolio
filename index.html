@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/all.min.css" />
+		<link rel="stylesheet" href="style.css" />
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="col-lg-12 bg-clr-gray d-flex flex-row flex-wrap">
+			<div class="col-lg-4 col-12 leftHeader">
+				<div id="particles-js">
+					<canvas class="particles-js-canvas-el"> </canvas>
+				</div>
+				<div class="cuunt-particles">
+					<span class="js-count-particles"></span>
+				</div>
+				<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+				<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+			</div>
+			<div class="col-lg-8 col-12 float-end bg-clr-gray">
+				<nav
+					class="navbar navbar-expand-lg bg-clr-light-gray navigation navbar-dark"
+				>
+					<div class="container">
+						<a class="navbar-brand text-white fontDGO" href="#">< keXO /></a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="collapse fontRubik navbar-collapse navbar-dark menu"
+							id="navbarNav"
+						>
+							<a href="" class="menu-item">
+								<div>
+									<span class="menu-item-text">Home</span>
+								</div>
+							</a>
+							<a href="" class="menu-item">
+								<div>
+									<span class="menu-item-text">Projects</span>
+								</div>
+							</a>
+							<a href="" class="menu-item">
+								<div>
+									<span class="menu-item-text">About me</span>
+								</div>
+							</a>
+							<a href="" class="menu-item">
+								<div>
+									<span class="menu-item-text">Contact</span>
+								</div>
+							</a>
+						</div>
+						<div class="cvButton">
+							<button
+								class="btn bg-body-emphasis clr-blue borderBlue px-5 py-3 rounded-5"
+							>
+								Download CV
+							</button>
+						</div>
+					</div>
+				</nav>
+
+				<!----------------------------------->
+
+				<div class="header pt-5">
+					<div class="pt-5">
+						<h1 class="fontDGO text-white my-5 pt-5 animated-text text-center">
+							MARINA KRAJCIK
+						</h1>
+
+						<div class="p-5 col-lg-6 col-12">
+							<div class="clr-blue fw-bold text">
+								<h5 class="typetext">Frontent Developer</h5>
+								<p class="text-white">djkabdjkasbdjkabkjabjks</p>
+							</div>
+						</div>
+						<div class="p-5">
+							<button
+								class="btn buttons text-white borderBlue rounded-5 px-5 py-2 fontRubiks"
+							>
+								Projects
+							</button>
+							<button
+								class="btn buttons text-white borderBlue rounded-5 px-5 py-2 fontRubik"
+							>
+								Hire me
+							</button>
+						</div>
+					</div>
+				</div>
+				<hr class="clr-light-gray border" />
+				<!----------------------->
+				<div class="projects" id="projects">
+					<h2 class="text-white my-5 ps-5 fw-bold fontDGO">Projects</h2>
+					<div
+						class="col-12 d-flex justify-content-around text-white projectOne bg-clr-gray"
+					>
+						<div class="col-lg-5 d-flex flex-column mb-5">
+							<div class="card border-0 bg-body-emphasis">
+								<img
+									src="images/gaming1.png"
+									class="card-img-top"
+									alt="gamingImg"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Gaming Website</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</p>
+									<button
+										class="btn buttons borderBlue text-white rounded-5 px-5 py-2 fontRubik"
+									>
+										Open site
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-5">
+							<div class="card border-0 bg-body-emphasis">
+								<img src="images/welding1.png" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Welding shop</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</p>
+									<button
+										class="btn buttons borderBlue text-white rounded-5 px-5 py-2 fontRubik"
+									>
+										Open site
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-12 d-flex justify-content-around text-white projectOne bg-clr-gray pb-5"
+					>
+						<div class="col-lg-5 d-flex flex-column">
+							<div class="card border-0 bg-body-emphasis">
+								<img
+									src="images/gaming1.png"
+									class="card-img-top"
+									alt="gamingImg"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Gaming Website</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</p>
+									<button
+										class="btn buttons text-white borderBlue rounded-5 px-5 py-2 fontRubik"
+									>
+										Open site
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-5">
+							<div class="card border-0 bg-body-emphasis">
+								<img src="images/welding1.png" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Welding shop</h5>
+									<p class="card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card's content.
+									</p>
+									<button
+										class="btn buttons borderBlue text-white rounded-5 px-5 py-2 fontRubik"
+									>
+										Open site
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="clr-light-gray border" />
+
+				<!----------ABOUT ME--------------->
+
+				<div
+					class="py-4 d-flex flex-column justify-content-around bg-clr-gray aboutMe pb-5"
+					id="aboutme"
+				>
+					<div class="card col-10 bg-body-emphasis border-0">
+						<div class="card-body">
+							<h3 class="card-title clr-blue">About me</h3>
+							<p class="card-text text-white">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.Some quick example text to build
+								on the card title and make up the bulk of the card's content.
+							</p>
+						</div>
+					</div>
+
+					<div class="card col-lg-5 col-10 bg-body-emphasis border-0">
+						<div class="card-body d-flex flex-column gap-3">
+							<h5 class="card-title clr-blue">Coding Skills</h5>
+
+							<div class="card-text text-white">
+								<i class="fa-brands fa-html5 fa-3x px-2"
+									><p class="fs-6 m-0 pt-4"></p
+								></i>
+
+								<i class="fa-brands fa-css3-alt fa-3x px-2"
+									><p class="fs-6 m-0 pt-4"></p
+								></i>
+
+								<i class="fa-brands fa-js fa-3x px-2">
+									<p class="fs-6 m-0 pt-4"></p>
+								</i>
+								<i class="fa-brands fa-php fa-3x px-2">
+									<p class="fs-6 m-0 pt-4"></p>
+								</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="clr-light-gray border" />
+				<!----------CONTACT--------------->
+				<div class="d-flex flex-wrap justify-content-around py-5" id="contact">
+					<div class="contact col-lg-4 col-10">
+						<p class="text-white m-0 fontRubik">
+							Username <span class="clr-blue">*</span>
+						</p>
+						<div class="input-group mb-4">
+							<span id="basic-addon1"></span>
+							<input
+								type="text"
+								class="form-control bg-body-emphasis text-white rounded-5"
+								aria-label="Username"
+								aria-describedby="basic-addon1"
+							/>
+						</div>
+						<p class="text-white m-0 fontRubik">
+							Email <span class="clr-blue">*</span>
+						</p>
+						<div class="input-group mb-3">
+							<input
+								type="email"
+								class="form-control bg-body-emphasis text-white rounded-5"
+								aria-label="Email"
+								name="email"
+							/>
+						</div>
+						<p class="text-white m-0 fontRubik">
+							Text <span class="clr-blue">*</span>
+						</p>
+						<div class="input-group">
+							<textarea
+								class="form-control bg-body-emphasis text-white rounded-5"
+							></textarea>
+						</div>
+						<button
+							class="btn buttons borderBlue text-white rounded-5 p-5 py-2 mt-5 fontRubik"
+						>
+							Send Message
+						</button>
+					</div>
+					<div
+						class="col-lg-6 col-10 mt-lg-0 mt-4 fontRubik border rounded-5 px-3"
+					>
+						<div class="name pb-5">
+							<h2 class="text-white pt-5">Marina Krajcik</h2>
+						</div>
+						<div class="contact">
+							<h6 class="clr-blue pb-3">
+								Age: <span class="text-white ps-2">31</span>
+							</h6>
+
+							<h6 class="clr-blue pb-3">
+								Residence: <span class="text-white ps-2">Serbia</span>
+							</h6>
+							<h6 class="clr-blue pb-3">
+								Freelance: <span class="text-white ps-2">Avaliable</span>
+							</h6>
+							<h6 class="clr-blue">
+								E-MAIL:
+								<span class="text-white ps-2">krajcik7385@gmail.com</span>
+							</h6>
+						</div>
+					</div>
+				</div>
+
+				<!----------------------->
+
+				<!----------FOOTER--------------->
+				<hr class="clr-light-gray border" />
+
+				<footer
+					class="bg-clr-gray col-12 float-end d-flex justify-content-between text-white"
+				>
+					<div class="col-6 ps-5 py-5">
+						<p class="m-0">©2023 Marina Krajcik</p>
+					</div>
+
+					<div class="col-6 d-flex gap-4 justify-content-center py-5">
+						<p class="m-0">
+							<i class="fa-brands linksHover fa-linkedin fa-2x"></i>
+						</p>
+						<p class="m-0">
+							<i class="fa-brands linksHover fa-instagram fa-2x"></i>
+						</p>
+						<p class="m-0">
+							<i class="fa-brands linksHover fa-facebook fa-2x"></i>
+						</p>
+						<p class="m-0">
+							<i class="fa-brands linksHover fa-github fa-2x"></i>
+						</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
