@@ -3,7 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 /**************FONT***************/
 
 .fontRubik {
@@ -35,7 +37,9 @@
 }
 
 /****************/
-
+.aboutMe {
+	height: 60vh;
+}
 .navigation {
 	position: fixed;
 	left: 50px;
@@ -133,7 +137,7 @@ a {
 /****************/
 .header,
 .projectOne {
-	height: 80vh;
+	height: 70vh;
 }
 .projectImg {
 	width: 300px;
@@ -227,5 +231,9 @@ a {
 		background-color: rgb(56, 59, 64);
 		position: absolute;
 		padding: 0;
+	}
+
+	.projectOne {
+		height: 100%;
 	}
 }
